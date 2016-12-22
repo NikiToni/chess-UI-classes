@@ -2,8 +2,6 @@
 {
     partial class Form1
     {
-        private int marginToBorder = 12;
-
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -37,7 +35,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(marginToBorder, marginToBorder);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(ChessBoard.BoardWidth, ChessBoard.BoardHeight);
             this.pictureBox1.TabIndex = 0;
@@ -51,7 +49,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(ChessBoard.BoardWidth + marginToBorder*2, ChessBoard.BoardHeight + marginToBorder * 2);
+            this.ClientSize = new System.Drawing.Size(ChessBoard.BoardWidth + 24, ChessBoard.BoardHeight + 24);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Banana Chess";
