@@ -109,7 +109,7 @@ namespace chess_drag_test
                 {
                     if (!ChessBoard.getCellFromIndex(i, j).Empty)
                     {
-                        if (testAlphaCollision(ChessBoard.getCellFromIndex(i, j).MyFigure, i, j, e.Location.X, e.Location.Y))
+                        if (testAlphaCollision(ChessBoard.getCellFromIndex(i, j).MyFigure, j, i, e.Location.X, e.Location.Y))
                         {
                             figureOnFocusIndex[0] = i;
                             figureOnFocusIndex[1] = j;
